@@ -1,0 +1,42 @@
+# This is an example goreleaser.yaml file with some sane defaults.
+# Make sure to check the documentation at http://goreleaser.com
+archive:
+  replacements:
+    darwin: Darwin
+    linux: Linux
+    amd64: x86_64
+before:
+  hooks:
+    # you may remove this if you don't use vgo
+    - go mod download
+    # you may remove this if you don't need go generate
+    # - go generate ./...
+brew:
+  github:
+    owner: opsbot
+    name: homebrew-tap
+  folder: Formula
+  homepage: https://github.com/opsbot/zerotier
+  description: cli client for zerotier api
+  test: |
+    system "#{bin}/zerotier version"
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - Merge pull request
+      - Merge branch
+checksum:
+  name_template: "{{ .ProjectName }}_checksums.txt"
+snapshot:
+  name_template: "{{ .Tag }}-next"

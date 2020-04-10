@@ -1,0 +1,14 @@
+# ignore build harness
+*build-harness
+
+# ignore vendored packages
+vendor/*
+
+# ignore compiled main
+zerotier
+
+# ignore contents of scratch dir
+scratch
+
+# ignore dist directory
+dist

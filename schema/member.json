@@ -1,0 +1,43 @@
+{
+  "id": "af415e486fe5b9df-21863bd76c",
+  "type": "Member",
+  "clock": 1564662841593,
+  "networkId": "af415e486fe5b9df",
+  "nodeId": "21863bd76c",
+  "controllerId": "af415e486f",
+  "hidden": false,
+  "name": "venue297",
+  "online": true,
+  "description": "Venue 297 BOH",
+  "config": {
+    "activeBridge": false,
+    "address": "21863bd76c",
+    "authorized": true,
+    "capabilities": [],
+    "creationTime": 1564079981740,
+    "id": "21863bd76c",
+    "identity": "21863bd76c:0:c192d7e2d68d224bf97a6d354896caf247c2068b92933fa2f02cbae8ed3a6752a8af287f3524833f96696a8eda3e470a8661ca773322712511d2c1fd4284748f",
+    "ipAssignments": [
+      "10.147.20.96"
+    ],
+    "lastAuthorizedTime": 1564080023315,
+    "lastDeauthorizedTime": 0,
+    "noAutoAssignIps": false,
+    "nwid": "af415e486fe5b9df",
+    "objtype": "member",
+    "remoteTraceLevel": 0,
+    "remoteTraceTarget": "          ",
+    "revision": 9,
+    "tags": [],
+    "vMajor": 1,
+    "vMinor": 2,
+    "vRev": 12,
+    "vProto": 9
+  },
+  "lastOnline": 1564662756917,
+  "physicalAddress": "98.195.243.8",
+  "physicalLocation": null,
+  "clientVersion": "1.2.12",
+  "protocolVersion": 9,
+  "supportsRulesEngine": true
+}

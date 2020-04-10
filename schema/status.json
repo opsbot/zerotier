@@ -1,0 +1,77 @@
+{
+  "id": "central_status",
+  "type": "CentralStatus",
+  "online": true,
+  "clock": 1564664669999,
+  "version": "2.2.0-master-5ae2567d",
+  "apiVersion": "4",
+  "uptime": 149481013981226,
+  "secondFactor": false,
+  "stripePublishableKey": "pk_live_2rOCoAfQyEnl56B8tW2B8sIh",
+  "smsEnabled": true,
+  "clusterNode": "zerotier-central-5df9c9cb65-dpjnr",
+  "communityEmbedLogin": {},
+  "communityEmbedURL": "https://community.zerotier.com/",
+  "supportEmbedCode": "<script data-jsd-embedded data-key='d4fef43e-feb0-4cf3-89ac-4abadc106670' data-base-url='https://jsd-widget.atlassian.com' src='https://jsd-widget.atlassian.com/assets/embed.js'></script>",
+  "loginHtmlBlurb": "<h2>Welcome to ZeroTier Central</h2><br><p>ZeroTier Central provides a friendly web UI and API for managing ZeroTier network controllers as well as related services that can be added to networks.</p><!-- <p>If you are an enterprise customer and want to host Central yourself, please <a href=\"mailto:support@zerotier.com\">contact us</a>.</p> -->",
+  "user": null,
+  "loginMethods": {
+    "local": true,
+    "google": true,
+    "twitter": false,
+    "facebook": false,
+    "github": false,
+    "saml": false
+  },
+  "paidPlans": {
+    "free": {
+      "id": "free",
+      "currency": "USD",
+      "description": "ZeroTier Free",
+      "features": [],
+      "maxDevices": 100,
+      "monthlyCost": 0
+    },
+    "zt-basic": {
+      "id": "zt-basic",
+      "currency": "USD",
+      "description": "ZeroTier Basic",
+      "features": [
+        "alerts",
+        "maps",
+        "2fa",
+        "dns"
+      ],
+      "maxDevices": 0,
+      "monthlyCost": 29
+    },
+    "zt-enterprise": {
+      "id": "zt-enterprise",
+      "currency": "USD",
+      "description": "ZeroTier Enterprise",
+      "features": [
+        "alerts",
+        "maps",
+        "2fa",
+        "dns",
+        "self-hosted-central"
+      ],
+      "maxDevices": 0,
+      "monthlyCost": -1
+    },
+    "zt-pro": {
+      "id": "zt-pro",
+      "currency": "USD",
+      "description": "ZeroTier Professional",
+      "features": [
+        "alerts",
+        "maps",
+        "2fa",
+        "dns"
+      ],
+      "maxDevices": 0,
+      "monthlyCost": 100
+    }
+  },
+  "readOnlyMode": false
+}
